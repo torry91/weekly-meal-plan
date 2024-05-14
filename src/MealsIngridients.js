@@ -7,7 +7,9 @@ const MealsIngridients = ({selectedDay,updateDay }) => {
         })
     } 
 
-    if (!selectedDay) return <p> Plan your week ahead !</p>
+    if (!selectedDay) return 
+    <div>
+    </div>
 
     return <div className="whole-plan">
     <div className="meal-editing">
